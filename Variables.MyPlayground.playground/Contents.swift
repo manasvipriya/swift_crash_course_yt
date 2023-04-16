@@ -44,3 +44,18 @@ var newArray = oldArray
 newArray.add("Qux")
 oldArray
 newArray
+
+
+//functions
+let someNames = NSMutableArray(    //NSMutableArray makes let mutable.
+    array:[
+    "Foo",
+    "Bar"
+    ]
+)
+func changeTheArray(_ array: NSArray){
+    let copy = array as! NSMutableArray
+    copy.add("Baz")
+}
+changeTheArray(someNames)
+someNames 
