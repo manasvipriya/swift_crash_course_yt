@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Variables.MyPlayground.playground">
+      location = "group:/Users/manasvipriya/dev/swift/swift_practice/Operator.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/manasvipriya/dev/swift/swift_practice/Variables.playground">
    </FileRef>
 </Workspace>
