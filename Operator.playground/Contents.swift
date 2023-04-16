@@ -30,7 +30,18 @@ type(of: unaryPostFix)
 //BINARYINFIX
  let result = 1 + 2    //working with 2 values and sits is between
 let names = "foo" + " " + "Bar"
- 
 
+
+
+
+//TERNARY OPERATOR
+
+let age = 30
+let message: String
+if age >= 18{
+    message = "You are an adult"
+}else{
+    message = "You are not yet an adult"
+}
 
 
