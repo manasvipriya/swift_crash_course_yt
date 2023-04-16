@@ -17,9 +17,20 @@ let doublemyAge = myAge * 2     //"*"
  
 
 //Three different types of OPERATORS:-
+
 //UNARY PREFIX
+let foo = !true //"!" comes before value
+
 //UNARY POSTFIX
+let name = Optional("Manasvi")
+type(of: name)
+let unaryPostFix = name!  //"!" comes after the value
+type(of: unaryPostFix)
+
 //BINARYINFIX
+ let result = 1 + 2    //working with 2 values and sits is between
+let names = "foo" + " " + "Bar"
+ 
 
 
 
