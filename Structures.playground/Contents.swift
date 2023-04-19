@@ -5,10 +5,23 @@ struct person{
     let name: String
     let age: Int
 }
- let foo = Person(
+let foo = person(
     name: "Foo",
     age: 20
  )
 
 foo.name
 foo.age
+
+//create custom initializer or constructor
+struct CommodoreComputer {
+    let name: String,
+    manufacturer: String
+}
+
+let c64 = CommodoreComputer(
+    name: "My Commodore",
+    manufacturer: "Commodore"
+)
+
+
