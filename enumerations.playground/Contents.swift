@@ -14,6 +14,8 @@ if cat == Animals.cat {
     "This is a cat"
 }else if cat == Animals.dog{
     "This is a dog"
+}else{
+    "This is something else"
 }
 
 
