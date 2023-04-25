@@ -20,3 +20,19 @@ if cat == Animals.cat {
 
 
 
+switch cat{
+case .cat:
+    "This is a cat"
+    break
+case .dog:
+    "This is a dog"
+    break
+default:
+    "This is something else"
+    
+    
+}
+
+
+
+
