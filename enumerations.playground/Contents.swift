@@ -18,8 +18,6 @@ if cat == Animals.cat {
     "This is something else"
 }
 
-
-
 switch cat{
 case .cat:
     "This is a cat"
