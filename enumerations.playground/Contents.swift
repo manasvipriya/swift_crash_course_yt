@@ -31,6 +31,12 @@ default:
     
 }
 
+enum FamilyMember{
+    case father
+    case mother
+    case brother
+    case sister
+}
 
 
 
